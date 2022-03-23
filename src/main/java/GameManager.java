@@ -21,7 +21,7 @@ public class GameManager {
     public int loser(Movable p1, Movable p2, Game game, int rounds) {
         int response = 0;
         int i = 0;
-        while (i <= rounds) {
+        while (i < rounds) {
             if (game.isFailed(p1.getSpeed())) {
                 if (game.isFailed(p2.getSpeed())) {
                     response = 0;

@@ -1,6 +1,5 @@
 public class FastPlayer implements Movable {
 
-    private int newSpeed;
     private int startSpeed;
     private int speedStep;
 

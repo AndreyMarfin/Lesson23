@@ -22,4 +22,6 @@ public class SpeedyGame extends Game {
             return false;
         }
     }
+
+
 }
